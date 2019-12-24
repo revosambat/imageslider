@@ -1,0 +1,11 @@
+DOM manipulation
+    1. querySelector
+    2. querySelectorAll
+    3. getElementById
+    4. getElementsClassname
+    5. getElementsByTagname
+    6. Change content of an html element
+    7. add and remove classes to html elements
+    8. add style properties
+    9. click event listener
+    

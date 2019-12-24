@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel ="stylesheet"  type="text/css" href = "style.css"> 
+        <title>slide show</title>
+    </head>
+    <body>
+        <div class="slide-container">
+            <div class="my-slides"> 
+                <img src="images/frame4.jpg" id = "lastslide" alt="">         
+                <img src="images/frame1.jpg" alt="">
+                <img src="images/frame2.jpg" alt="">
+                <img src="images/frame3.jpg" alt="">
+                <img src="images/frame4.jpg" alt="">
+                <img src="images/frame1.jpg" id = "firstslide" alt="">                
+            </div>
+            <button id ="prevBtn" onclick="previous()"></button>
+            <button id ="nextBtn" onclick="next()"></button>  
+        </div>
+        <script type ="text/javascript" src = "basics.js"></script>
+    </body>
+</html>
